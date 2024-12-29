@@ -84,7 +84,7 @@ export const profileConfig: ProfileConfig = {
     },
     {
       name: 'Email',
-      icon: 'line-md:email',
+      icon: 'material-symbols:mail',
       url: 'mailto:3356832185@qq.com',
     },
   ],
