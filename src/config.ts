@@ -41,7 +41,7 @@ export const navBarConfig: NavBarConfig = {
   links: [
     LinkPreset.Home,
     LinkPreset.Archive,
-    LinkPreset.About,
+    LinkPreset.About, // 确保这里有逗号
     LinkPreset.Friends,
     {
       name: 'GitHub',
