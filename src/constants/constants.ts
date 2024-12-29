@@ -8,7 +8,7 @@ export const LIGHT_MODE = 'light',
 export const DEFAULT_THEME = AUTO_MODE
 
 // Banner height unit: vh
-export const BANNER_HEIGHT = 55
+export const BANNER_HEIGHT = 75
 export const BANNER_HEIGHT_EXTEND = 40
 export const BANNER_HEIGHT_HOME = BANNER_HEIGHT + BANNER_HEIGHT_EXTEND
 
