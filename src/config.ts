@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
       enable: true,         // Display the credit text of the banner image
-      text: '©星空と少女-Stella',              // Credit text to be displayed
+      text: '星空と少女-Stella',              // Credit text to be displayed
       url: 'https://www.pixiv.net/artworks/109301396'                // (Optional) URL link to the original artwork or artist's page
     }
   },
@@ -42,6 +42,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
+    LinkPreset.Friends,  
     {
       name: 'GitHub',
       url: 'https://github.com/Elvish064',     // Internal links should not include the base path, as it is automatically added
