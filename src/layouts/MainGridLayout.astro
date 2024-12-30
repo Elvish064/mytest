@@ -18,9 +18,10 @@ interface Props {
   lang?: string
   setOGTypeArticle?: boolean;
   series?: string
+  headings? : MarkdownHeading[]
 }
 
-const { title, banner, description, lang, setOGTypeArticle, series} = Astro.props
+const { title, banner, description, lang, setOGTypeArticle, series, headings = [] } = Astro.props
 const hasBannerCredit =
   siteConfig.banner.enable && siteConfig.banner.credit.enable
 const hasBannerLink = !!siteConfig.banner.credit.url
