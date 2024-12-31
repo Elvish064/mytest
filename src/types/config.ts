@@ -82,9 +82,9 @@ export type BlogPostData = {
   draft?: boolean
   image?: string
   category?: string
+  series?: string
   prevTitle?: string
   prevSlug?: string
   nextTitle?: string
   nextSlug?: string
-  series?: string
 }
