@@ -144,6 +144,9 @@ importers:
       '@rollup/plugin-yaml':
         specifier: ^4.1.2
         version: 4.1.2(rollup@2.79.2)
+      '@shikijs/transformers':
+        specifier: ^1.24.2
+        version: 1.24.2
       '@types/markdown-it':
         specifier: ^14.1.2
         version: 14.1.2
@@ -1470,6 +1473,9 @@ packages:
 
   '@shikijs/engine-oniguruma@1.22.2':
     resolution: {integrity: sha512-GIZPAGzQOy56mGvWMoZRPggn0dTlBf1gutV5TdceLCZlFNqWmuc7u+CzD0Gd9vQUTgLbrt0KLzz6FNprqYAxlA==}
+
+ '@shikijs/transformers@1.24.2':
+    resolution: {integrity: sha512-cIwn8YSwO3bsWKJ+pezcXY1Vq0BVwvuLes1TZSC5+Awi6Tsfqhf3vBahOIqZK1rraMKOti2VEAEF/95oXMig1w==}
 
   '@shikijs/types@1.22.2':
     resolution: {integrity: sha512-NCWDa6LGZqTuzjsGfXOBWfjS/fDIbDdmVDug+7ykVe1IKT4c1gakrvlfFYp5NhAXH/lyqLM8wsAPo5wNy73Feg==}
@@ -6254,6 +6260,10 @@ snapshots:
     dependencies:
       '@shikijs/types': 1.22.2
       '@shikijs/vscode-textmate': 9.3.0
+
+  '@shikijs/transformers@1.24.2':
+    dependencies:
+      shiki: 1.24.2
 
   '@shikijs/types@1.22.2':
     dependencies:
