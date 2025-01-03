@@ -13,16 +13,12 @@ export type SiteConfig = {
   banner: {
     enable: boolean
     src: string
-    position?: 'top' | 'center' | 'bottom'
+    position?: string
     credit: {
       enable: boolean
       text: string
       url?: string
     }
-  }
-  toc: {
-    enable: boolean
-    depth: 1 | 2 | 3
   }
 
   favicon: Favicon[]
@@ -82,7 +78,7 @@ export type BlogPostData = {
   draft?: boolean
   image?: string
   category?: string
-  series?: string
+  series?: string /*添加系列栏*/
   prevTitle?: string
   prevSlug?: string
   nextTitle?: string
